@@ -1,0 +1,28 @@
+.hero {
+    background: linear-gradient(135deg, #6fb1fc, #8e91f5);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+.h0 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 130px;
+    line-height: 128%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    line-height: 135%;
+    letter-spacing: -0.03em;
+    font-weight: 300;
+    color: #fff;
+    max-width: 555px;
+    margin: 96px auto 0;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+.footer {
+  background: linear-gradient(90deg, #7a89f8 0%, #8ec5fc 100%);
+  color: #fff;
+  padding: 40px 100px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.footer-social {
+  margin-bottom: 30px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.footer-social a:hover {
+  opacity: 1;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-column h4 {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
+
+.footer-column p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  flex-wrap: wrap;
+  opacity: 0.9;
+}
+
+.footer-bottom .designer {
+  opacity: 0.6;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+  .footer {
+    padding: 40px 30px;
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 5px;
+  }
+}

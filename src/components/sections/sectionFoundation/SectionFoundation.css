@@ -1,0 +1,89 @@
+.foundation {
+  background: white;
+padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.foundation h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #aab5e7;
+}
+
+.foundation .aspects {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #866594;
+}
+
+.foundation .petals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.foundation .petal {
+  background: #ffffff;
+  border-left: 5px solid #4a6fa5;
+  padding: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+.foundation .petal h3 {
+  margin: 0;
+  color: #4a6fa5;
+  font-size: 1.2rem;
+}
+
+.foundation .petal p {
+  margin: 10px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.foundation .collums {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: stretch; /* make child columns equal height */
+}
+.foundation .collum {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* let the petals grid expand to fill available vertical space in its column */
+.foundation .collum .petals{
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+  align-content: start;
+}
+
+/* make the image column center its content and allow the image to scale to column height */
+.foundation .collum img{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  align-self: center;
+}
+
+/* vertically center the right column's content inside the .collums block */
+.foundation .collums .collum:last-child {
+  justify-content: center;
+}
+

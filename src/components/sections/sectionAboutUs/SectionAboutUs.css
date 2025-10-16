@@ -1,0 +1,38 @@
+.about-us-section {
+  background: white;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-us-text {
+  max-width: 600px;
+  justify-content: space-between;
+  padding: 0 30px 0 0;
+}
+
+.about-us-text h2 {
+  font-size: 36px;
+  color: #aab5e7; /* Фіолетовий заголовок */
+  margin-bottom: 20px;
+}
+
+.about-us-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-us-text img {
+  max-width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+}

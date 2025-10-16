@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Center section headings only */
+.section-title {
+  text-align: center;
+}
+
+
