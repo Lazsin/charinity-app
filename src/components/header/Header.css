@@ -1,4 +1,4 @@
-header {
+/* header {
     position: fixed;
     width: auto;
     font-size: 16px;
@@ -18,39 +18,37 @@ header {
 
 .site-logo{ height:32px; width:auto; transition:opacity .25s ease, transform .25s ease }
 
-/* Fix header on large screens (desktop/full-size) */
+
 @media (min-width: 1024px) {
 
-    /* default: header over the hero should be transparent */
+    
     header {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        height: 70px; /*taller header on desktop*/
+        height: 70px; 
         padding: 0 2rem;
         z-index: 50;
-        background: transparent; /* transparent so hero shows through */
+        background: transparent; 
         color: white;
         transition: background 300ms ease, color 300ms ease, box-shadow 300ms ease, backdrop-filter 300ms ease;
         box-shadow: none;
     }
 
-    /* Note: removed main.body top padding so hero occupies the top of the page under the transparent header */
 
-        /* when scrolled past hero - switch to white background */
             header.scrolled {
                 background: rgba(255,255,255,0.96);
                 color: #222;
                 backdrop-filter: blur(6px);
-                box-shadow: none; /* removed shadow */
+                box-shadow: none; 
             }
 }
 
-    /* When switching logos, give a small pop animation */
+
     header .site-logo{
         transform-origin: left center;
     }
     header.scrolled .site-logo{
         transform: scale(0.98);
-    }
+    } */

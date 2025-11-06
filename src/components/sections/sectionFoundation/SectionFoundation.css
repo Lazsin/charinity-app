@@ -1,4 +1,4 @@
-.foundation {
+/* .foundation {
   background: white;
 padding: 50px 20px;
   max-width: 900px;
@@ -50,7 +50,7 @@ padding: 50px 20px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  align-items: stretch; /* make child columns equal height */
+  align-items: stretch; 
 }
 .foundation .collum {
     flex: 1;
@@ -63,7 +63,7 @@ padding: 50px 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* let the petals grid expand to fill available vertical space in its column */
+
 .foundation .collum .petals{
   flex: 1 1 auto;
   display: grid;
@@ -72,7 +72,7 @@ padding: 50px 20px;
   align-content: start;
 }
 
-/* make the image column center its content and allow the image to scale to column height */
+
 .foundation .collum img{
   max-width: 100%;
   max-height: 100%;
@@ -82,8 +82,7 @@ padding: 50px 20px;
   align-self: center;
 }
 
-/* vertically center the right column's content inside the .collums block */
 .foundation .collums .collum:last-child {
   justify-content: center;
 }
-
+ */

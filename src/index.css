@@ -1,10 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Center section headings only */
-.section-title {
-  text-align: center;
+@import "tailwindcss";
+@layer utilities {
+  .before-bg-icon::before {
+    background-image: var(--icon);
+  }
 }
-
-

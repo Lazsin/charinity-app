@@ -1,32 +1,22 @@
-.root{
-    height: 100%;
-    width: 100%;
-}
-body {
-    font-family: 'Segoe UI', sans-serif;
-    display: relative;
-    margin: 0;;
-    padding: 0;
-    color: #232222;
-    line-height: 1.6;
-    background-color: #ffffff;
+body{
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-button {
+.btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 12px 60px;
   background: #7789DC;
   color: white;
   font-weight: bold;
   font-size: 16px;
   border: none;
-  border-radius: 12px;
+  border-radius:0 46px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-button:hover {
+.btn:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   background: radial-gradient(circle, #7789DC, #44bcf4);

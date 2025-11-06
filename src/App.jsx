@@ -7,6 +7,7 @@ import SectionHero from './components/sections/sectionHero/SectionHero'
 import SectionConsultations from './components/sections/sectionConsultations/SectionConsultations'
 import SectionRetreats from './components/sections/sectionRetreats/SectionRetreats'
 import SectionContact from './components/sections/sectionContact/SectionContact'
+import SectionWhy from './components/sections/sectionWhy/sectionWhy'
 import Footer from './components/footer/Footer'
 
 export default function App() {
@@ -26,17 +27,16 @@ export default function App() {
 
   return (
     <>
-      
-      <main className="body">
+    
         <Header scrolled={scrolled} />
         <SectionHero />
         <SectionAboutUs />
         <SectionFoundation />
         <SectionConsultations />
         <SectionRetreats />
+        <SectionWhy />
         <SectionContact />
         <Footer />
-      </main>
     </>
   )
 }

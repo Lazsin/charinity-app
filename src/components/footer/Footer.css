@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
   background: linear-gradient(90deg, #7a89f8 0%, #8ec5fc 100%);
   color: #fff;
   padding: 40px 100px;
@@ -59,22 +59,4 @@
 
 .footer-bottom .designer {
   opacity: 0.6;
-}
-
-/* Адаптив */
-@media (max-width: 900px) {
-  .footer {
-    padding: 40px 30px;
-    text-align: center;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    gap: 5px;
-  }
-}
+} */
