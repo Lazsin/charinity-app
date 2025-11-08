@@ -27,7 +27,7 @@ export default function SectionAboutUs() {
       <h2 className="text-4xl font-serif text-[#AAB5E7] uppercase text-center m-2">
             About Us
           </h2>
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-around w-full">
         
         <div className="md:max-w-1/2 md:pr-2">
           
@@ -55,7 +55,7 @@ export default function SectionAboutUs() {
           src={photo1}
           alt="about us"
           loading="lazy"
-          className="max-w-[300px] xl:max-w-full rounded-xl my-10"
+          className="max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-full rounded-xl my-10"
         />
       </div>
     </section>

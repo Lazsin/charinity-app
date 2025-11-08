@@ -27,7 +27,7 @@ export default function SectionRetreats() {
       <h2 className="text-4xl font-serif text-[#AAB5E7] uppercase text-center m-2">
             Join our retreats
           </h2>
-      <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-around w-full">
         {/* Текстовый блок */}
         
         <div className="md:max-w-1/2 md:pr-2">

@@ -19,16 +19,16 @@ import photo from '../../../assets/Mask-group-Marina-photo.jpg'
 export default function SectionConsultations() {
   return (
     <section className="bg-white md:px-5 mt-10 py-12 max-w-4/5 lg:max-w-3/4 mx-auto">
-      <h2 className="text-center text-4xl font-serif text-[#b2bced] mb-5 uppercase">
+      <h2 className="text-center text-2xl sm:text-4xl font-serif text-[#b2bced] mb-5 uppercase">
             Individual consultations
           </h2>
-      <div className="flex flex-col md:flex-row items-center justify-between w-full">
+      <div className="flex flex-col lg:flex-row items-center justify-around w-full">
         {/* Фото */}
          <img
                   src={photo}
                   alt="about us"
                   loading="lazy"
-                  className="max-w-[300px] xl:max-w-full rounded-xl my-10"
+                  className="max-w-[300px] md:max-w-[350px] lg:max-w-[400px] xl:max-w-full rounded-xl my-10"
                 />
 
         {/* Текстовый блок */}

@@ -98,7 +98,7 @@ export default function SectionFoundation() {
       </p>
 
       {/* Аспекты */}
-      <div className="flex md:flex-row md:justify-between text-center gap-2 flex-col font-serif font-medium text-[#7E6BA5] mb-10 uppercase">
+      <div className="flex md:flex-row md:justify-around text-center gap-2 flex-col font-serif font-medium text-[#7E6BA5] mb-10 uppercase">
         <p>Physical</p>
         <p>Mental</p>
         <p>Emotional</p>

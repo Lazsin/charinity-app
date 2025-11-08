@@ -69,7 +69,7 @@ export default function SectionContact() {
           
           <form className="max-w-1/2">
             {/* Имя + Телефон */}
-            <div className="flex flex-col md:flex-row gap-5">
+            <div className="flex flex-col lg:flex-row gap-5">
               <div className="flex flex-col flex-1 pb-5">
                 <label className="text-base mt-5 text-left font-serif leading-relaxed text-gray-500 max-w-xs">Name</label>
                 <input
@@ -129,7 +129,7 @@ export default function SectionContact() {
             </p>
           </form>
           {/* Текст справа */}
-        <div className=" max-w-1/2 items-center justify-center text-left">
+        <div className=" pl-10 max-w-1/2 items-center justify-center text-left">
           <h3 className="text-2xl md:text-[28px] font-medium font-serif leading-snug">
             AND START YOUR PATH OF HARMONY WITH CHARINITY
           </h3>
@@ -138,12 +138,12 @@ export default function SectionContact() {
       </section>
 
       {/* Вторая секция (упрощённая форма) */}
-      <section className=" flex  justify-center md:px-5 mt-10 py-12 max-w-4/5 lg:max-w-3/4 mx-auto">
+      <section className="flex md:px-5 mt-10 py-12 max-w-4/5 lg:max-w-3/4 mx-auto">
       <div className="flex-1 max-w-[500px]">
-        <h2 className="text-center text-2xl font-serif mb-5 uppercase font-light">
+        <h2 className="text-left text-2xl font-serif mb-5 uppercase font-light">
             Want to know more about Charinity?
         </h2>
-        <form className="flex flex-col w-full max-w-md px-20 self-center">
+        <form className="max-w-1/2">
           <div className="flex flex-col pb-5">
             <label className="text-base mt-5 text-left font-serif leading-relaxed text-gray-500 max-w-xs">Name</label>
             <input
