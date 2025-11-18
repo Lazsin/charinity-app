@@ -61,7 +61,7 @@
 export default function SectionContact() {
   return (
     <>
-      <section className="flex-row md:flex-row justify-center items-center md:px-5 mt-10 py-12 max-w-4/5 lg:max-w-3/4 mx-auto">
+      <section className="flex-row md:flex-row justify-center items-center md:px-5 mt-10 py-12 md:max-w-4/5 lg:max-w-3/4 mx-auto">
         {/* Форма */}
         <h2 className="text-center text-4xl font-serif mb-5 uppercase">WRITE US</h2>
         
@@ -129,7 +129,7 @@ export default function SectionContact() {
             </p>
           </form>
           {/* Текст справа */}
-        <div className=" pl-10 max-w-1/2 items-center justify-center text-left">
+        <div className=" md:pl-10 max-w-1/2 items-center justify-center text-left">
           <h3 className="text-2xl md:text-[28px] font-medium font-serif leading-snug">
             AND START YOUR PATH OF HARMONY WITH CHARINITY
           </h3>
@@ -138,12 +138,12 @@ export default function SectionContact() {
       </section>
 
       {/* Вторая секция (упрощённая форма) */}
-      <section className="flex md:px-5 mt-10 py-12 max-w-4/5 lg:max-w-3/4 mx-auto">
-      <div className="flex-1 max-w-[500px]">
-        <h2 className="text-left text-2xl font-serif mb-5 uppercase font-light">
+      <section className="flex justify-center md:justify-start md:px-5 mt-10 py-12 md:max-w-4/5 lg:max-w-3/4 mx-auto">
+      <div className=" flex flex-col justify-center ">
+        <h2 className="md:text-left text-center text-2xl font-serif mb-5 uppercase font-light max-w-[500px]">
             Want to know more about Charinity?
         </h2>
-        <form className="max-w-1/2">
+        <form className="max-w-1/2 flex flex-col self-center md:self-start">
           <div className="flex flex-col pb-5">
             <label className="text-base mt-5 text-left font-serif leading-relaxed text-gray-500 max-w-xs">Name</label>
             <input
