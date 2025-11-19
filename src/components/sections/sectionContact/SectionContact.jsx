@@ -138,9 +138,9 @@ export default function SectionContact() {
       </section>
 
       {/* Вторая секция (упрощённая форма) */}
-      <section className="flex justify-center md:justify-start md:px-5 mt-10 py-12 md:max-w-4/5 lg:max-w-3/4 mx-auto">
-      <div className=" flex flex-col justify-center ">
-        <h2 className="md:text-left text-center text-2xl font-serif mb-5 uppercase font-light max-w-[500px]">
+      <section className="flex flex-col justify-center md:justify-start md:px-5 mt-10 py-12 md:max-w-4/5 lg:max-w-3/4 mx-auto">
+      {/* <div className=" flex flex-col justify-center "> */}
+        <h2 className="flex self-center md:self-start md:text-left text-center text-2xl font-serif mb-5 uppercase font-light max-w-[500px]">
             Want to know more about Charinity?
         </h2>
         <form className="max-w-1/2 flex flex-col self-center md:self-start">
@@ -171,7 +171,7 @@ export default function SectionContact() {
             </a>
           </p>
         </form>
-      </div>
+      {/* </div> */}
         
       </section>
     </>
